@@ -1,0 +1,86 @@
+.container {
+    padding: 20px;
+}
+
+/* HEADER */
+.nav-link {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.searchBox {
+    padding: 8px 16px;
+    min-width: 300px;
+    font-size: 20px;
+    background-color: rgb(243, 244, 246);
+    outline: none;
+    text-align: start;
+    border: none;
+    border-radius: 8px;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav ul li a {
+    color: gray;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* HEADER */
+
+
+/* FOOTER */
+
+.footer {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    /* Cột đầu tiên chiếm 60%, hai cột còn lại chia đều */
+    gap: 10px;
+    background-color: rgb(29, 34, 40);
+    padding: 10px;
+}
+
+.item {
+    color: white;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
